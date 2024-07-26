@@ -26,3 +26,44 @@
     height: 200px;
     background-color: red;
 }
+.admin-panel {
+    
+    width: 100% ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://newpos.7yug.com/login_asset/images/bg_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+.radius {
+    border-radius: 10px;
+}
+.dashboard {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+}
+.sidebar {
+    width: 12rem;
+}
+ Link{
+    text-decoration: none !important;
+    color: white;
+}
+.text {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    
+}
+.clock {
+    display: flex;
+   justify-content: center;
+    width: 100%;
+}

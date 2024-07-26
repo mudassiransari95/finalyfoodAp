@@ -1,8 +1,8 @@
 import React from 'react'
 import SidebarLeft from './../Sidebar';
 import Home from './Home';
-import Set from '../sidebar/Set';
-import ManageStoreCategory from './ManageStoreCategory';
+
+
 
 const Left = () => {
   return (
@@ -16,12 +16,9 @@ const Left = () => {
       <Home/>
 
     
-    <Set/>
+ 
       </div>
-      <div className=''>
-  {/* <Sitting/> */}
-    {/* <ManageStoreCategory/> */}
-      </div >
+      
     </div>
   )
 }

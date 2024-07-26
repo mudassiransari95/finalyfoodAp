@@ -30,16 +30,20 @@ const SidebarLeft = () => {
     <div className="digital-clock  " style={{background:"	#000080 ",width:"14rem"}}>
       <h4 className='text-white ps-5 pt-3'><LuClock8/>{formattedTime}</h4>
 
-    
-
-<div className="dropdown mt-4 ms-5">
-  <button style={{backgroundColor:"d"}} className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <div className='flex'>
+    <div style={{backgroundColor:"red"}}>
   <MdOutlineHome /> Dashboard
-  </button>
-  <ul className="dropdown-menu" style={{ listStyleType:"circle" }}>
-    <li><Link className="dropdown-item" href="">Home</Link></li>
-    <li><Link className="dropdown-item" href="">Setting</Link></li>
-    <li><Link className="dropdown-item" href="#">Manage Country</Link></li>
+  </div>
+    </div>
+
+<div className=" mt-4 ms-5">
+  <div style={{backgroundColor:"d"}}>
+  <MdOutlineHome /> Dashboard
+  </div>
+  <ul className="" style={{ listStyleType:"circle" }}>
+    <li><Link  href="">Home</Link></li>
+    <li><Link  href="">Setting</Link></li>
+    <li><Link  href="#">Manage Country</Link></li>
   </ul>
 </div>
  

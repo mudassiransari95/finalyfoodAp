@@ -18,24 +18,24 @@ const Login = () => {
   };
 
   return (
-    <div className=' p-3 ' style={{ width:"50rem",height:"35rem",backgroundImage:("	https://newpos.7yug.com/login_asset/images/bg_1.jpg"),background: "whitesmoke", marginLeft: "30rem" }}>
-      <div className='p-3    ' style={{ marginLeft:"7rem",marginTop:"5rem",backgroundColor: "white", width: "35rem" }}>
-        <h3 className=' ' style={{ fontWeight: "bold" ,marginLeft:"13rem"}}>Admin panel</h3>
+    <div className='   admin-panel' style={{}}>
+      <div className='p-3  radius  ' style={{backgroundColor: "white", width: "35rem" }}>
+        <h3 className='text-center ' style={{ fontWeight: "bold" }}>Admin panel</h3>
         <div className="mb-3  ">
-          <label htmlFor="exampleInputUsername" className="form-label me-5" style={{ paddingRight: "19rem" }}>Username</label>
+          <label htmlFor="exampleInputUsername" className="form-label me-5" style={{ }}>Username</label>
           <input type="text" ref={userRef} className="form-control " id="exampleInputUsername" aria-describedby="usernameHelp" style={{ backgroundColor: " 216, 212, 211" }} />
         </div>
         <div className="mb-3">
-          <label htmlFor="exampleInputEmail" className="form-label" style={{ paddingRight: "19rem" }}>Email address</label>
+          <label htmlFor="exampleInputEmail" className="form-label" style={{ }}>Email address</label>
           <input type="email" ref={emailRef} className="form-control" id="exampleInputEmail" aria-describedby="emailHelp" />
         </div>
         <div className="mb-3">
-          <label htmlFor="exampleInputPassword" className="form-label me-5" style={{ paddingRight: "18rem" }}>Password</label>
+          <label htmlFor="exampleInputPassword" className="form-label me-5" style={{ }}>Password</label>
           <input type="password" ref={passwordRef} className="form-control" id="exampleInputPassword" />
         </div>
         <div className="mb-3 form-check">
           <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-          <label className="form-check-label " htmlFor="exampleCheck1" style={{ paddingRight: "16rem" }}>Remember me</label>
+          <label className="form-check-label " htmlFor="exampleCheck1" style={{ }}>Remember me</label>
         </div>
         <button type="submit" onClick={handleSubmit} className="btn " style={{ width: "33rem", backgroundColor: "skyblue", border: "none",fontWeight:"bold" }}>Login</button>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaEye } from "react-icons/fa";
-const NewOrder = () => {
+const CompelteOrder = () => {
   return (
     // <div>
        <div className='  p-1  w-75 bg-#D3D3D3  ' style={{backgroundColor:"lightgrey",marginLeft:"17rem",height:"100vh"}}>
@@ -69,4 +69,4 @@ const NewOrder = () => {
   )
 }
 
-export default NewOrder
+export default CompelteOrder
