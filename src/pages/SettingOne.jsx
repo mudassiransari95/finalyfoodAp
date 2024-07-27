@@ -43,7 +43,7 @@ const SettingOne = () => {
     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
   <input type="email"  className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='admin@admin.com' />
 </div>
-<div className="mb-3 w-100 d-flex justify-content-around alie-items-center">
+<div className="mb-3 w-100 d-flex justify-content-between alie-items-center">
   <label htmlFor="exampleInputPassword1" className="form-label">Phone Number</label>
   <input type="number"  className="form-control" id="exampleInputPassword1" />
   <label htmlFor="exampleInputPassword1" className="form-label">Whatsapp Number</label>

@@ -2,11 +2,11 @@ import React from 'react'
 
 const Reporting = () => {
   return (
-    <div className='p-1  w-75 bg-#D3D3D3 ' style={{backgroundColor:"lightgrey",marginLeft:"17rem",height:"100vh"}}>
+    <div className='p-1  w-100 bg-#D3D3D3 ' style={{backgroundColor:"lightgrey",height:"100vh"}}>
       <div class="container " style={{marginTop:"5rem",width:"71rem"}}>
-  <nav class="container navbar navbar-expand-lg " style={{background:"#86E3AC "}}>
-    <div class="container   " style={{borderRadius:"10px",height:"2rem"}}>
-    <a class="navbar-brand " style={{color:"green",fontSize:"1rem"}} href="#"> In demo You can not Add/Edit/Delete anything </a>
+  <nav class=" " style={{background:"#86E3AC "}}>
+    <div class="   " style={{borderRadius:"10px",height:"3rem"}}>
+    <p class=" " style={{color:"green",fontSize:"1rem"}}> In demo You can not Add/Edit/Delete anything </p>
     </div>
   </nav>
  <div className='mt-5 gap-3' style={{width:"70rem",background:"white",height:"15rem"}}>

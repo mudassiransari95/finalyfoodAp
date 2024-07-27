@@ -3,7 +3,7 @@ import { FaEye } from "react-icons/fa";
 const CompelteOrder = () => {
   return (
     // <div>
-       <div className='  p-1  w-75 bg-#D3D3D3  ' style={{backgroundColor:"lightgrey",marginLeft:"17rem",height:"100vh"}}>
+       <div className='  p-1  w-100 bg-#D3D3D3  ' style={{backgroundColor:"lightgrey",height:"100vh"}}>
         <div className='bg-warning mt-5'>
 
         </div>

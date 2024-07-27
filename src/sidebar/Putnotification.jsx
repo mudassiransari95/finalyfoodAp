@@ -11,17 +11,17 @@ let obj={
 }
   }
   return (
-    <div className='w-75   ' style={{marginLeft:"22rem",paddingLeft:"10rem",paddingTop:"2rem",background:"whitesmoke"}}> 
+    <div className='w-100   ' style={{paddingTop:"2rem",background:"whitesmoke", height:"100vh"}}> 
 
 
-<div class="w-75 ms-5  " style={{marginTop:"5rem",width:"71rem",borderRadius:"10px"}}>
+<div class="w-50 m-auto mt-5 " style={{borderRadius:"10px"}}>
   <nav class="container navbar
    navbar-expand-lg pb-3 " style={{background:"#86E3AC ",borderRadius:"10px"}}>
     <a class="navbar-brand pb-2  " style={{color:"green",fontSize:"1rem",borderRadius:"10px",paddingLeft:"2rem",height:"1.5rem"}} href="#"> In demo You can not Add/Edit/Delete anything </a>
   </nav>
 </div>
 
-    <form className='w-75 mt-5 ms-5 p-3 notificationform' style={{background:"white"}}>
+    <form className='w-50  m-auto mt-4 p-3 notificationform' style={{background:"white"}}>
     <p style={{fontFamily:"arial",fontWeight:"bold",}}>
     Push Notification
     </p>
